@@ -10,13 +10,17 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
+import { FooterComponent } from './Components/footer/footer.component';
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
